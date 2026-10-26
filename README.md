@@ -1,5 +1,10 @@
 # dspant
 
+> [!WARNING]
+> **ARCHIVED REPOSITORY — PROVIDED "AS IS"**
+>
+> This repository is a static, frozen archival snapshot accompanying the published manuscript and Zenodo record. The code is available strictly **as is**, and **no updates, bug fixes, enhancements, or maintenance will be performed on this repository**. For legal terms and liability limits, see [DISCLAIMER.md](DISCLAIMER.md) and [SECURITY.md](SECURITY.md).
+
 dspant (Digital Signal Processing for Analysis Toolkit) is a Python package, with a Rust core, for processing
 electrophysiological time series. It loads recordings lazily with Dask, so recordings larger than memory can be
 filtered and analyzed, and it stores data and metadata in an open format based on Parquet and JSON (`.ant`).
@@ -70,7 +75,8 @@ More in [docs/processing-quickstart.md](docs/processing-quickstart.md).
 
 If you use this code, please cite the article above and this software ([CITATION.cff](CITATION.cff)).
 
-## License
+## License and Disclaimer
 
-MIT ([LICENSE](LICENSE)). The software is provided "as is", without warranty of any kind; users are responsible for
-validating results for their own use.
+Distributed under the MIT License ([LICENSE](LICENSE)).
+
+The code is provided **"as is"** and **"as available"** without warranty of any kind. As an archived research record, no future updates or maintenance will be provided. The software is intended solely for scientific research and must not be used for clinical or medical purposes. Users bear full responsibility for validating outputs for their own research. See [DISCLAIMER.md](DISCLAIMER.md) and [SECURITY.md](SECURITY.md) for full terms and limitation of liability.
