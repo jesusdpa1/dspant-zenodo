@@ -5,6 +5,11 @@ cache/
 *.out
 *.parquet
 *.json
+# Archives / distribution packages
+*.zip
+*.tar.gz
+*.tgz
+
 # figure outputs are part of the archive (the data are not distributed)
 !paper_figures/img/*.json
 !.zenodo.json
