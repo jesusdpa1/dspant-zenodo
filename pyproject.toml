@@ -1,7 +1,7 @@
 [project]
 name = "dspant"
 version = "0.1.0"
-description = "DSPANT: Digital Signal Processing for Analysis Toolkit"
+description = "DSPANT: Digital Signal Processing Analysis Toolkit"
 readme = "README.md"
 authors = [
     { name = "Jesús Peñaloza", email = "jesus.penalozaa@ufl.edu" },

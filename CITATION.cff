@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the accompanying publication."
-title: "dspant: Digital Signal Processing for Analysis Toolkit"
+title: "dspant: Digital Signal Processing Analysis Toolkit"
 type: software
 version: 0.1.0
 license: MIT

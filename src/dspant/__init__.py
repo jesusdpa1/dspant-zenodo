@@ -1,12 +1,12 @@
 """
-dspant: Digital Signal Processing for Analysis of Neural Time-series
+dspant: Digital Signal Processing Analysis Toolkit
 
 A Python package for processing and analyzing neural time-series data,
 with a focus on efficient computation and scalability.
 """
 
 """
-DSPANT: Digital Signal Processing for Analysis Toolkit
+DSPANT: Digital Signal Processing Analysis Toolkit
 """
 
 __version__ = "0.1.0"
