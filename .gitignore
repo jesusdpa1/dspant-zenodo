@@ -9,6 +9,7 @@ cache/
 *.zip
 *.tar.gz
 *.tgz
+*.sha256
 
 # figure outputs are part of the archive (the data are not distributed)
 !paper_figures/img/*.json
