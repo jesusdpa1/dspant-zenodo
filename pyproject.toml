@@ -3,7 +3,10 @@ name = "dspant"
 version = "0.1.0"
 description = "DSPANT: Digital Signal Processing for Analysis Toolkit"
 readme = "README.md"
-authors = [{ name = "Jesús Peñaloza", email = "jesus.penalozaa@ufl.edu" }]
+authors = [
+    { name = "Jesús Peñaloza", email = "jesus.penalozaa@ufl.edu" },
+    { name = "Erica A. Dale" }
+]
 requires-python = ">=3.12"
 
 

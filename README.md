@@ -5,7 +5,7 @@
 >
 > This repository is a static, frozen archival snapshot accompanying the published manuscript and Zenodo record. The code is available strictly **as is**, and **no updates, bug fixes, enhancements, or maintenance will be performed on this repository**. For legal terms and liability limits, see [DISCLAIMER.md](DISCLAIMER.md) and [SECURITY.md](SECURITY.md).
 
-dspant (Digital Signal Processing for Analysis Toolkit) is a Python package, with a Rust core, for processing
+dspant (Digital Signal Processing for Analysis Toolkit) is a Python package, with a Rust core, developed by Jesús D. Peñaloza-Aponte and Erica A. Dale for processing
 electrophysiological time series. It loads recordings lazily with Dask, so recordings larger than memory can be
 filtered and analyzed, and it stores data and metadata in an open format based on Parquet and JSON (`.ant`).
 

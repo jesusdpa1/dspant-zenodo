@@ -4,7 +4,8 @@ version = "0.1.0"
 description = "EMG processing extension for dspant: activity (onset and offset) detection and EMG-specific processors"
 readme = "README.md"
 authors = [
-    { name = "Jesús Peñaloza", email = "jesus.penalozaa@ufl.edu" }
+    { name = "Jesús Peñaloza", email = "jesus.penalozaa@ufl.edu" },
+    { name = "Erica A. Dale" }
 ]
 requires-python = ">=3.12"
 dependencies = [

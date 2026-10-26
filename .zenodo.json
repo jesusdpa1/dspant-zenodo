@@ -1,12 +1,17 @@
 {
   "title": "dspant: Digital Signal Processing for Analysis Toolkit",
   "upload_type": "software",
-  "description": "<p><strong>dspant</strong> (Digital Signal Processing for Analysis Toolkit) is a Python package with a Rust core developed by Jesús D. Peñaloza-Aponte for processing electrophysiological time series. It loads recordings lazily with Dask for out-of-core processing and stores data and metadata in an open format based on Parquet and JSON (<code>.ant</code>).</p><p>This archival deposit preserves the software, Rust extensions, and reproduction pipelines used in support of the publication:</p><blockquote><p>Penaloza-Aponte JD, Holmes TC, Mickle AR, Harbert RA, Baekey D, Streeter KA, Dale EA. <em>Invasive diaphragm electromyography data acquisition and analysis in rodents</em>. Biomedical Signal Processing and Control (under revision).</p></blockquote><p><strong>Note:</strong> This repository is an archival scientific artifact provided strictly &quot;as is&quot; without ongoing maintenance, updates, or technical support.</p>",
+  "description": "<p><strong>dspant</strong> (Digital Signal Processing for Analysis Toolkit) is a Python package with a Rust core developed by Jesús D. Peñaloza-Aponte and Erica A. Dale for processing electrophysiological time series. It loads recordings lazily with Dask for out-of-core processing and stores data and metadata in an open format based on Parquet and JSON (<code>.ant</code>).</p><p>This archival deposit preserves the software, Rust extensions, and reproduction pipelines used in support of the publication:</p><blockquote><p>Penaloza-Aponte JD, Holmes TC, Mickle AR, Harbert RA, Baekey D, Streeter KA, Dale EA. <em>Invasive diaphragm electromyography data acquisition and analysis in rodents</em>. Biomedical Signal Processing and Control (under revision).</p></blockquote><p><strong>Note:</strong> This repository is an archival scientific artifact provided strictly &quot;as is&quot; without ongoing maintenance, updates, or technical support.</p>",
   "creators": [
     {
       "name": "Penaloza-Aponte, Jesus D.",
       "affiliation": "University of Florida",
       "orcid": "0000-0001-5903-2291"
+    },
+    {
+      "name": "Dale, Erica A.",
+      "affiliation": "University of Florida",
+      "orcid": "0000-0002-9909-8858"
     }
   ],
   "contributors": [
@@ -34,12 +39,6 @@
       "name": "Streeter, Kristi A.",
       "affiliation": "Marquette University",
       "type": "Other"
-    },
-    {
-      "name": "Dale, Erica A.",
-      "affiliation": "University of Florida",
-      "orcid": "0000-0002-9909-8858",
-      "type": "ProjectLeader"
     }
   ],
   "access_right": "open",
