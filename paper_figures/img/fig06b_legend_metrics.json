@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "fs_hz": 24414.0625,
+    "segment_s": 29.99996416,
+    "welch_nperseg": 2048,
+    "burst_mask": "ECG-removed signal, 50 ms RMS, p10 + 0.3 (p99 - p10), >= 0.1 s, edge bursts excluded"
+  },
+  "n_bursts": 44,
+  "burst_duration_s": {
+    "mean": 0.2425371927272727,
+    "sd": 0.010531593866806228
+  },
+  "median_freq_hz_with_ecg": {
+    "mean": 447.3057660189542,
+    "sd": 41.73225137552395
+  },
+  "median_freq_hz_ecg_removed": {
+    "mean": 519.6441303599964,
+    "sd": 30.454245480334965
+  },
+  "median_freq_bias_hz": {
+    "mean": -72.33836434104226,
+    "sd": 32.661759544995846
+  },
+  "mean_freq_hz_with_ecg": {
+    "mean": 475.2976537412927,
+    "sd": 28.045079486643992
+  },
+  "mean_freq_hz_ecg_removed": {
+    "mean": 558.4978830424443,
+    "sd": 17.69204029251449
+  },
+  "mean_freq_bias_hz": {
+    "mean": -83.20022930115168,
+    "sd": 22.55658359698551
+  },
+  "median_freq_paired_wilcoxon_p": 7.154909383886912e-09,
+  "median_freq_trend_hz_per_min": {
+    "slope": -29.6618341912633,
+    "r": -0.13660014631524642,
+    "p": 0.37660316699066815
+  },
+  "ecg": {
+    "median_freq_hz": 95.367431640625,
+    "f95_hz": 238.4185791015625,
+    "power_fraction_below_500hz": 0.9985601305961609
+  },
+  "burst_power_fraction_100_1000hz_ecg_removed": {
+    "mean": 0.9053880572319031,
+    "sd": 0.01754562184214592
+  }
+}

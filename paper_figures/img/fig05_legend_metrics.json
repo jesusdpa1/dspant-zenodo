@@ -1,0 +1,120 @@
+{
+  "parameters": {
+    "fs_hz": 24414.0625,
+    "analysis_window_s": 117.99998464,
+    "displayed_channels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "reference_channels": 32,
+    "reference": "sample-wise median of all channels",
+    "bandpass_hz": [
+      20,
+      2000
+    ],
+    "bandpass_order": 5,
+    "notch_hz": 60,
+    "notch_q": 30,
+    "figure_normalization": "each trace scaled to its own max, panels A and B separately",
+    "figure_tick_labels": "MaxNLocator shows positions 0-3 bottom-up = channels 3,2,1,0"
+  },
+  "n_bursts": 182,
+  "mean_pairwise_r": {
+    "before_all": 0.8742040765484989,
+    "after_all": 0.2223464253208429,
+    "before_expiration": 0.9506186013598011,
+    "after_expiration": 0.21041464322051606,
+    "before_bursts": 0.8198099659889809,
+    "after_bursts": 0.24557753827183715
+  },
+  "pairwise_r_matrix_before": [
+    [
+      1.0,
+      0.831,
+      0.939,
+      0.835
+    ],
+    [
+      0.831,
+      1.0,
+      0.841,
+      0.952
+    ],
+    [
+      0.939,
+      0.841,
+      1.0,
+      0.846
+    ],
+    [
+      0.835,
+      0.952,
+      0.846,
+      1.0
+    ]
+  ],
+  "pairwise_r_matrix_after": [
+    [
+      1.0,
+      -0.008,
+      0.65,
+      -0.013
+    ],
+    [
+      -0.008,
+      1.0,
+      0.011,
+      0.688
+    ],
+    [
+      0.65,
+      0.011,
+      1.0,
+      0.006
+    ],
+    [
+      -0.013,
+      0.688,
+      0.006,
+      1.0
+    ]
+  ],
+  "per_channel": {
+    "ch0": {
+      "burst_snr_db_before": 2.6194849014282227,
+      "burst_snr_db_after": 15.867425918579102,
+      "expiration_rms_change_db": -18.565256118774414,
+      "burst_rms_change_db": -5.317316055297852,
+      "burst_rms_change_db_excluding_ecg": -2.6798975467681885
+    },
+    "ch1": {
+      "burst_snr_db_before": 1.340355634689331,
+      "burst_snr_db_after": 4.817108154296875,
+      "expiration_rms_change_db": -10.177482604980469,
+      "burst_rms_change_db": -6.700730323791504,
+      "burst_rms_change_db_excluding_ecg": -4.997035026550293
+    },
+    "ch2": {
+      "burst_snr_db_before": 2.455195903778076,
+      "burst_snr_db_after": 16.525299072265625,
+      "expiration_rms_change_db": -19.6600399017334,
+      "burst_rms_change_db": -5.589938640594482,
+      "burst_rms_change_db_excluding_ecg": -3.048985242843628
+    },
+    "ch3": {
+      "burst_snr_db_before": 0.9818781018257141,
+      "burst_snr_db_after": 2.605314254760742,
+      "expiration_rms_change_db": -9.138320922851562,
+      "burst_rms_change_db": -7.514884948730469,
+      "burst_rms_change_db_excluding_ecg": -5.943221569061279
+    }
+  },
+  "reference": {
+    "n_cardiac_peaks": 660,
+    "heart_rate_bpm": 336.35907003444316,
+    "energy_fraction_within_15ms_of_peaks": 0.7038031816482544,
+    "time_fraction_within_15ms_of_peaks": 0.16769998115145518
+  }
+}

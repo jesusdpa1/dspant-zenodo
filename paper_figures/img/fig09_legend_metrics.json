@@ -1,0 +1,91 @@
+{
+  "parameters": {
+    "fs_hz": 25000.000000000004,
+    "emg_side": "left (emg_l)",
+    "emg_filter": "bandpass 20-2000 Hz (order 5) + notch 60 Hz (Q 30)",
+    "envelope": "modified TKEO, 4 Hz lowpass (min-max normalized per window only for display)",
+    "pressure_filter": "notch 60 Hz (Q 30) + 50 Hz lowpass",
+    "windows_s": {
+      "off": [
+        375,
+        395
+      ],
+      "on": [
+        0,
+        20
+      ]
+    },
+    "event_rule": "p10 + 0.3 (p99 - p10), >= 0.1 s",
+    "coincident_window_s": 0.1
+  },
+  "off": {
+    "ventilator_rate_per_min": 69.00000000000001,
+    "emg_burst_rate_per_min": 54.000000000000014,
+    "n_emg_bursts": 18,
+    "n_pressure_breaths": 23,
+    "delay_s_mean": 0.12109777777777775,
+    "delay_s_sd": 0.11731904271262415,
+    "pct_emg_bursts_coincident": 33.33333333333333,
+    "burst_peak_cv": 0.30230248336717713,
+    "pct_emg_followed_by_breath_within_500ms": 72.22222222222221,
+    "delay_s_followed_mean": 0.18593230769230765,
+    "delay_s_followed_sd": 0.05489528306297456,
+    "delays_s_all": [
+      0.13,
+      -0.025,
+      0.19,
+      -0.052,
+      0.18,
+      0.033,
+      0.165,
+      -0.036,
+      0.193,
+      0.224,
+      0.216,
+      0.208,
+      0.236,
+      0.24,
+      -0.067,
+      0.193,
+      -0.056,
+      0.209
+    ],
+    "peak_ratio_coincident_vs_not": 0.5074136319407708
+  },
+  "on": {
+    "ventilator_rate_per_min": 60.000000000000014,
+    "emg_burst_rate_per_min": 63.000000000000014,
+    "n_emg_bursts": 21,
+    "n_pressure_breaths": 20,
+    "delay_s_mean": 0.1531733333333333,
+    "delay_s_sd": 0.2064829001475263,
+    "pct_emg_bursts_coincident": 0.0,
+    "burst_peak_cv": 0.0640475059066102,
+    "pct_emg_followed_by_breath_within_500ms": 95.23809523809523,
+    "delay_s_followed_mean": 0.19818599999999997,
+    "delay_s_followed_sd": 0.009528057404042905,
+    "delays_s_all": [
+      0.199,
+      0.208,
+      0.205,
+      0.22,
+      0.193,
+      0.197,
+      0.202,
+      0.207,
+      0.19,
+      0.202,
+      0.217,
+      0.201,
+      0.189,
+      0.191,
+      0.188,
+      0.188,
+      0.184,
+      0.194,
+      0.195,
+      0.195,
+      -0.747
+    ]
+  }
+}

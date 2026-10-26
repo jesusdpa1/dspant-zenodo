@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "fs_hz": 24414.0625,
+    "window_s": 9.9999744,
+    "bandpass_hz": [
+      20,
+      2000
+    ],
+    "bandpass_order": 5,
+    "notch_hz": 60,
+    "notch_q": 30,
+    "r_peak_reference": "200 Hz lowpass (order 5) of the filtered EMG channel",
+    "r_peak_threshold_mad": 8.0,
+    "refractory_s": 0.1,
+    "template_window_ms": 30.02368,
+    "subtraction": "per-beat cross-correlation alignment + least-squares scaling"
+  },
+  "n_r_peaks": 56,
+  "heart_rate_bpm": 334.21030116358656,
+  "n_bursts": 15,
+  "n_peaks_in_expiration": 26,
+  "n_peaks_in_bursts": 22,
+  "cardiac_residual_db_expiration": -18.657897158842335,
+  "burst_snr_db_before": 7.158687114715576,
+  "burst_snr_db_after": 16.394893646240234,
+  "scale_median_expiration": 0.9909555613994598,
+  "scale_median_bursts": 1.0508421063423157
+}

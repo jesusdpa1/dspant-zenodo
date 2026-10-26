@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "fs_hz": 24414.0625,
+    "window_s": [
+      400.0,
+      499.99998976
+    ],
+    "emg_channel": 1,
+    "emg_filter": "bandpass 20-2000 Hz (order 5) + notch 60 Hz (Q 30)",
+    "envelope": "modified TKEO, 4 Hz lowpass",
+    "pulse_rule": "negative peaks < 50% of window minimum, >= 2 ms apart; train gap > 50 ms"
+  },
+  "stim_start_s_in_window": 31.59482368,
+  "n_trains": 76,
+  "intra_train_pulse_freq_hz": 100.05763319672131,
+  "pulses_per_train": {
+    "mean": 23.626666666666665,
+    "sd": 4.92037499486473
+  },
+  "train_duration_s": {
+    "mean": 0.22613633706666667,
+    "sd": 0.04917540858867688
+  },
+  "train_rate_per_min": 67.03476798462384,
+  "train_period_s": {
+    "mean": 0.9030298282666668,
+    "sd": 0.10452386908350596
+  },
+  "pre_stim_breathing_rate_per_min": 63.67619057341689,
+  "pre_stim_burst_duration_s": {
+    "mean": 0.2657745454545455,
+    "sd": 0.009089381967140662
+  },
+  "pre_stim_window_s": 31.09482496
+}

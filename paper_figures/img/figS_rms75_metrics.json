@@ -1,0 +1,93 @@
+{
+  "params": {
+    "channel": 0,
+    "start_s": 5.0,
+    "duration_s": 30.0,
+    "rms_window_ms": 50.0,
+    "rms_center": false,
+    "rms75_delay_ms": 75.0,
+    "k": 3.0,
+    "min_duration_ms": 20.0,
+    "offset_fraction": 0.7,
+    "refractory_ms": 200.0,
+    "first_pass_percent_max": 20.0,
+    "baseline_margin_ms": 100.0,
+    "tkeo_lowpass_hz": 20.0,
+    "overview_s": 10.0
+  },
+  "fs_hz": 24414.0625,
+  "samples": {
+    "rms_window": 1221,
+    "rms75_delay": 1831,
+    "min_duration": 488
+  },
+  "rms_window_relative_to_onset_ms": [
+    25.02656,
+    74.99776
+  ],
+  "n_bursts_first_pass": 45,
+  "expiration_fraction": 0.44025498995796136,
+  "mu_exp": 6.331552467083946e-12,
+  "sigma_exp": 2.8082424949606415e-11,
+  "t_on": 9.057882731590318e-11,
+  "n_bursts": 45,
+  "t_i_s": {
+    "mean": 0.14118820977777777,
+    "sd": 0.018426849261379746
+  },
+  "t_e_s": {
+    "mean": 0.5245095563636363,
+    "sd": 0.09845056140853692
+  },
+  "t_tot_s": {
+    "mean": 0.6657452218181817,
+    "sd": 0.09844897463108299
+  },
+  "duty_cycle": {
+    "mean": 0.2143180279492851,
+    "sd": 0.031797546975126274
+  },
+  "t_i_rms_envelope_s": {
+    "mean": 0.18238304711111109,
+    "sd": 0.02663599116420732
+  },
+  "t_i_rms_minus_tkeo_ms": {
+    "mean": 41.19483733333332,
+    "sd": 25.282805865883564
+  },
+  "tkeo75_cv_pct": 21.085656350033762,
+  "forward_search_early_tkeo": {
+    "n_bursts": 5,
+    "t_i_shortened_ms": [
+      33.0,
+      53.0,
+      46.1,
+      51.8,
+      23.9
+    ]
+  },
+  "forward_search_early_rms": {
+    "n_bursts": 10,
+    "t_i_shortened_ms": [
+      9.0,
+      123.3,
+      84.5,
+      51.2,
+      54.7,
+      2.3,
+      155.2,
+      11.1,
+      55.6,
+      35.7
+    ]
+  },
+  "corr_rms75_tkeo75": 0.3541691837311864,
+  "rms75_mean": 5.023440098739229e-05,
+  "rms75_sd": 9.352408596896566e-06,
+  "rms75_cv_pct": 18.617538452148438,
+  "rms75_over_peak_rms_mean": 0.7258680462837219,
+  "rms_check_rectified_numpy_max_diff_pct": {
+    "envelope": 9.222744768862933e-05,
+    "rms75": 5.1363997269903955e-05
+  }
+}

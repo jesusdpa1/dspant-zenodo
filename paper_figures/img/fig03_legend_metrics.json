@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "fs_hz": 25000.000000000004,
+    "window_s": 9.999999999999998,
+    "bandpass_hz": [
+      20,
+      2000
+    ],
+    "bandpass_order": 5,
+    "notch_hz": 60,
+    "notch_q": 30,
+    "wavelet": {
+      "name": "db4",
+      "levels": 6,
+      "threshold": "VisuShrink sigma*sqrt(2 ln N), sigma = MAD(finest detail)/0.6745, soft",
+      "input": "raw"
+    },
+    "ffc_hz": 60,
+    "wp_fundamental_hz": 60,
+    "burst_mask": {
+      "source": "wavelet_packet output",
+      "rms_window_s": 0.05,
+      "threshold": "p10 + 0.3 (p99 - p10) of envelope",
+      "min_burst_s": 0.1,
+      "guard_s": 0.05,
+      "n_bursts": 6,
+      "burst_s": 2.2588799999999996,
+      "expiration_s": 7.141119999999999
+    },
+    "runtime_repeats": 5
+  },
+  "burst_snr_db": {
+    "raw": 2.6233789920806885,
+    "bandpass_notch": 2.72017596105698,
+    "visushrink": 3.0776672582046776,
+    "ffc": 7.713541009173117,
+    "wavelet_packet": 7.6785741765189695
+  },
+  "harmonic_power_db_vs_raw": {
+    "raw": 0.0,
+    "bandpass_notch": -0.0689431770406762,
+    "visushrink": -1.3776352577495579,
+    "ffc": -23.426863189348786,
+    "wavelet_packet": -21.229812726959004
+  },
+  "runtime_ms_per_s": {
+    "bandpass_notch": 1.0818966000442745,
+    "visushrink": 0.49962420016527187,
+    "ffc": 0.8761686000070769,
+    "wavelet_packet": 46.44857379989845
+  }
+}

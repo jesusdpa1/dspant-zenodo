@@ -1,0 +1,147 @@
+{
+  "parameters": {
+    "fs_hz": 24414.0625,
+    "window_s": 29.99996416,
+    "segment_start_s": 4.9999872,
+    "envelope_window_ms": 49.9712,
+    "ma_rms": "causal (center=False)",
+    "tkeo": "modified, then 4th-order Butterworth 20 Hz lowpass, zero-phase",
+    "reference": "centered 50 ms moving RMS",
+    "noise": "Gaussian, 4th-order Butterworth 20-2000 Hz (zero-phase), SNR re burst RMS, 3 seeds",
+    "onset_rule": "p10 + 0.3 (p99 - p10) of each envelope, >= 20 ms above threshold; lag-corrected; matched to true burst onsets (zero-phase reference) within \u00b1100 ms"
+  },
+  "n_bursts": 44,
+  "lag_ms_vs_zero_phase_reference": {
+    "abs_ma": 25.3952,
+    "rms": 24.94464,
+    "tkeo_lp": 1.31072
+  },
+  "burst_expiration_contrast_db": {
+    "abs_ma": 10.556950569152832,
+    "rms": 8.980581283569336,
+    "tkeo_lp": 15.753425667655307
+  },
+  "ecg_false_peaks_in_expiration": {
+    "abs_ma": 10,
+    "rms": 75,
+    "tkeo_lp": 0
+  },
+  "expiration_s": 13.83534592,
+  "low_snr": {
+    "clean": {
+      "abs_ma": {
+        "median_abs_onset_error_ms": 1.78176,
+        "p90_abs_onset_error_ms": 4.575232000000001,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 176.0002102615845,
+        "contrast_db": 10.556950569152832
+      },
+      "rms": {
+        "median_abs_onset_error_ms": 0.04096,
+        "p90_abs_onset_error_ms": 0.04096,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 176.0002102615845,
+        "contrast_db": 8.980581283569336
+      },
+      "tkeo_lp": {
+        "median_abs_onset_error_ms": 48.701440000000005,
+        "p90_abs_onset_error_ms": 80.65024000000001,
+        "missed_pct": 9.090909090909092,
+        "false_onsets_per_min": 10.000011946680939,
+        "contrast_db": 15.753425667655307
+      }
+    },
+    "20dB": {
+      "abs_ma": {
+        "median_abs_onset_error_ms": 4.11648,
+        "p90_abs_onset_error_ms": 9.945088,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 177.33354518780865,
+        "contrast_db": 9.442618370056152
+      },
+      "rms": {
+        "median_abs_onset_error_ms": 0.6963199999999999,
+        "p90_abs_onset_error_ms": 6.979584000000001,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 178.66688011403278,
+        "contrast_db": 8.287707328796387
+      },
+      "tkeo_lp": {
+        "median_abs_onset_error_ms": 49.0496,
+        "p90_abs_onset_error_ms": 82.7392,
+        "missed_pct": 7.575757575757576,
+        "false_onsets_per_min": 10.000011946680939,
+        "contrast_db": 12.161664186745043
+      }
+    },
+    "10dB": {
+      "abs_ma": {
+        "median_abs_onset_error_ms": 4.9152,
+        "p90_abs_onset_error_ms": 24.731648,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 192.00022937627404,
+        "contrast_db": 6.240486145019531
+      },
+      "rms": {
+        "median_abs_onset_error_ms": 3.70688,
+        "p90_abs_onset_error_ms": 26.93939200000001,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 192.66689683938608,
+        "contrast_db": 5.921657085418701
+      },
+      "tkeo_lp": {
+        "median_abs_onset_error_ms": 46.24384,
+        "p90_abs_onset_error_ms": 83.247104,
+        "missed_pct": 9.090909090909092,
+        "false_onsets_per_min": 14.666684188465377,
+        "contrast_db": 5.420639310344661
+      }
+    },
+    "5dB": {
+      "abs_ma": {
+        "median_abs_onset_error_ms": 5.8368,
+        "p90_abs_onset_error_ms": 34.65216,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 192.66689683938608,
+        "contrast_db": 3.9837515354156494
+      },
+      "rms": {
+        "median_abs_onset_error_ms": 4.56704,
+        "p90_abs_onset_error_ms": 35.962880000000006,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 199.3335714705067,
+        "contrast_db": 3.9671151638031006
+      },
+      "tkeo_lp": {
+        "median_abs_onset_error_ms": 41.28768,
+        "p90_abs_onset_error_ms": 83.10784,
+        "missed_pct": 8.333333333333334,
+        "false_onsets_per_min": 26.00003106137044,
+        "contrast_db": 2.6034219519681288
+      }
+    },
+    "0dB": {
+      "abs_ma": {
+        "median_abs_onset_error_ms": 6.84032,
+        "p90_abs_onset_error_ms": 41.59897600000001,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 176.00021026158453,
+        "contrast_db": 2.058316946029663
+      },
+      "rms": {
+        "median_abs_onset_error_ms": 6.32832,
+        "p90_abs_onset_error_ms": 41.496576000000005,
+        "missed_pct": 0.0,
+        "false_onsets_per_min": 188.6668920607137,
+        "contrast_db": 2.1033408641815186
+      },
+      "tkeo_lp": {
+        "median_abs_onset_error_ms": 22.56896,
+        "p90_abs_onset_error_ms": 65.15097600000001,
+        "missed_pct": 3.787878787878788,
+        "false_onsets_per_min": 255.33363837191996,
+        "contrast_db": 1.0093775095401838
+      }
+    }
+  }
+}
