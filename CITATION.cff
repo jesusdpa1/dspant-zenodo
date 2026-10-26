@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the article and this software."
+message: "If you use this software, please cite both the software and the accompanying publication."
 title: "dspant: Digital Signal Processing for Analysis Toolkit"
 type: software
 version: 0.1.0
@@ -9,26 +9,36 @@ authors:
     given-names: Jesus D.
     affiliation: University of Florida
     orcid: "https://orcid.org/0000-0001-5903-2291"
-  - family-names: Holmes
-    given-names: Taylor C.
-    affiliation: Marquette University
-  - family-names: Mickle
-    given-names: Alyssa R.
-    affiliation: University of Florida
-  - family-names: Harbert
-    given-names: Rebecca A.
-    affiliation: University of Florida
-  - family-names: Baekey
-    given-names: David
-    affiliation: University of Florida
-  - family-names: Streeter
-    given-names: Kristi A.
-    affiliation: Marquette University
-  - family-names: Dale
-    given-names: Erica A.
-    affiliation: University of Florida
-    orcid: "https://orcid.org/0000-0002-9909-8858"
 keywords:
   - electromyography
   - neuroscience
   - signal processing
+preferred-citation:
+  type: article
+  title: "Invasive diaphragm electromyography data acquisition and analysis in rodents"
+  authors:
+    - family-names: Penaloza-Aponte
+      given-names: Jesus D.
+      affiliation: University of Florida
+      orcid: "https://orcid.org/0000-0001-5903-2291"
+    - family-names: Holmes
+      given-names: Taylor C.
+      affiliation: Marquette University
+    - family-names: Mickle
+      given-names: Alyssa R.
+      affiliation: University of Florida
+    - family-names: Harbert
+      given-names: Rebecca A.
+      affiliation: University of Florida
+    - family-names: Baekey
+      given-names: David
+      affiliation: University of Florida
+    - family-names: Streeter
+      given-names: Kristi A.
+      affiliation: Marquette University
+    - family-names: Dale
+      given-names: Erica A.
+      affiliation: University of Florida
+      orcid: "https://orcid.org/0000-0002-9909-8858"
+  journal: "Biomedical Signal Processing and Control"
+  year: 2026

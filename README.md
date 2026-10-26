@@ -9,7 +9,7 @@ dspant (Digital Signal Processing for Analysis Toolkit) is a Python package, wit
 electrophysiological time series. It loads recordings lazily with Dask, so recordings larger than memory can be
 filtered and analyzed, and it stores data and metadata in an open format based on Parquet and JSON (`.ant`).
 
-This repository contains the code used in:
+This repository contains the code and reproduction pipelines used in support of the publication:
 
 > Penaloza-Aponte JD, Holmes TC, Mickle AR, Harbert RA, Baekey D, Streeter KA, Dale EA.
 > Invasive diaphragm electromyography data acquisition and analysis in rodents.
