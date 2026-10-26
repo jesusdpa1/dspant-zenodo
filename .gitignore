@@ -7,6 +7,7 @@ cache/
 *.json
 # figure outputs are part of the archive (the data are not distributed)
 !paper_figures/img/*.json
+!.zenodo.json
 poetry.lock
 Cargo.lock
 

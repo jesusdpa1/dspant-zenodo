@@ -1,0 +1,29 @@
+{
+  "title": "dspant: Digital Signal Processing for Analysis Toolkit",
+  "upload_type": "software",
+  "description": "<p><strong>dspant</strong> (Digital Signal Processing for Analysis Toolkit) is a Python package with a Rust core for processing electrophysiological time series. It loads recordings lazily with Dask for out-of-core processing and stores data and metadata in an open format based on Parquet and JSON (<code>.ant</code>).</p><p>This archival deposit contains the complete codebase, Rust implementations, analysis pipelines, user documentation, and reproduction scripts for every figure and metric corresponding to the publication:</p><blockquote><p>Penaloza-Aponte JD, Dale EA. <em>Invasive diaphragm electromyography data acquisition and analysis in rodents</em>. Biomedical Signal Processing and Control (under revision).</p></blockquote><p><strong>Note:</strong> This repository is an archival scientific artifact provided strictly &quot;as is&quot; without ongoing maintenance, updates, or technical support.</p>",
+  "creators": [
+    {
+      "name": "Penaloza-Aponte, Jesus D.",
+      "affiliation": "University of Florida"
+    },
+    {
+      "name": "Dale, Erica A.",
+      "affiliation": "University of Florida"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "electromyography",
+    "neuroscience",
+    "signal processing",
+    "electrophysiology",
+    "rust",
+    "python",
+    "dask",
+    "open science",
+    "reproducible research"
+  ],
+  "version": "0.1.0"
+}
