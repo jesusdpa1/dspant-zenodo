@@ -11,7 +11,7 @@ filtered and analyzed, and it stores data and metadata in an open format based o
 
 This repository contains the code used in:
 
-> Penaloza-Aponte JD, Dale EA.
+> Penaloza-Aponte JD, Holmes TC, Mickle AR, Harbert RA, Baekey D, Streeter KA, Dale EA.
 > Invasive diaphragm electromyography data acquisition and analysis in rodents.
 > *Biomedical Signal Processing and Control* (under revision).
 

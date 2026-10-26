@@ -9,6 +9,21 @@ authors:
     given-names: Jesus D.
     affiliation: University of Florida
     orcid: "https://orcid.org/0000-0001-5903-2291"
+  - family-names: Holmes
+    given-names: Taylor C.
+    affiliation: Marquette University
+  - family-names: Mickle
+    given-names: Alyssa R.
+    affiliation: University of Florida
+  - family-names: Harbert
+    given-names: Rebecca A.
+    affiliation: University of Florida
+  - family-names: Baekey
+    given-names: David
+    affiliation: University of Florida
+  - family-names: Streeter
+    given-names: Kristi A.
+    affiliation: Marquette University
   - family-names: Dale
     given-names: Erica A.
     affiliation: University of Florida
@@ -17,4 +32,3 @@ keywords:
   - electromyography
   - neuroscience
   - signal processing
-
